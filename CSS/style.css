@@ -1,4 +1,5 @@
 
+
 /* Split the screen in half */
 .split {
     height: 100%;
@@ -13,16 +14,15 @@
   /* Control the left side */
   .left {
     left: 0;
-   
     font-family: Arial, Helvetica, sans-serif;
-    color: #D9D6D0;
-    background-color: #B8A46F;
+    color: #2F4035; 
   }
   
   /* Control the right side */
   .right {
     right: 0;
-    background-color: #D9D6D0;
+    background-color: #2F4035;
+    color: #8C3C2A;
   }
   
   /* If you want the content centered horizontally and vertically */
@@ -37,17 +37,13 @@
   /* Image styling */
   .centered img {
     width: 50vh
- 
   }
 
 nav a {
     font-family: Arial, Helvetica, sans-serif;
-    color: #314035;
+    color: #B8A46F;
     text-decoration: none;
     font-size: 4em;
-   
- 
-   
-   
+
     
 }
