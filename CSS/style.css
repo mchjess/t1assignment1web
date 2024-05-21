@@ -1,6 +1,6 @@
 
 
-/* Split the screen in half */
+/* Split screen */
 .split {
     height: 100%;
     width: 50%;
@@ -23,7 +23,7 @@
     right: 0;
   }
   
-  /* If you want the content centered horizontally and vertically */
+  /* Content centered horizontally and vertically */
   .centered {
     position: absolute;
     top: 50%;
@@ -70,9 +70,9 @@
   }
 
   .rightnav {
-    position: absolute;
-    top: 45%;
-    left: 50%;
+    position: relative;
+    top: 60%;
+    left: 60%;
     transform: translate(-50%, -50%);
   }
 
@@ -81,6 +81,4 @@ nav a {
     color: #BCBAB4;
     text-decoration: none;
     font-size: 4em;
-
-    
 }
