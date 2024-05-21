@@ -15,14 +15,15 @@
   .left {
     left: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: #2F4035; 
+    color: #2F4035;
+    background-color: #D9D7D0; 
   }
   
   /* Control the right side */
   .right {
     right: 0;
     background-color: #2F4035;
-    color: #8C3C2A;
+    
   }
   
   /* If you want the content centered horizontally and vertically */
@@ -36,14 +37,34 @@
   
   /* Image styling */
   .centered img {
-    width: 50vh
+    display: block;
+    width: 50vh;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .centered:hover .overlay {
+    opacity: 1;
   }
 
 nav a {
     font-family: Arial, Helvetica, sans-serif;
-    color: #B8A46F;
+    color: #D9D7D0;
     text-decoration: none;
     font-size: 4em;
+    flex-direction: column;
 
     
 }
