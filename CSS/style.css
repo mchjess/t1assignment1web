@@ -1,7 +1,5 @@
 * {
     background-color: #D9D6D0;
-    
-   
 }
 
 
@@ -25,7 +23,7 @@
   /* Control the right side */
   .right {
     right: 0;
-    background-color: red;
+    background-color: #A64F3C;
   }
   
   /* If you want the content centered horizontally and vertically */
@@ -54,7 +52,7 @@ header {
     /* align items is vertical 
     align-items: right;
     padding: 1.5rem;*/
-}
+
 
 nav a {
     font-family: Arial, Helvetica, sans-serif;
