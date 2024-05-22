@@ -21,9 +21,11 @@
   /* Control the right side */
   .right {
     right: 0;
+    display: inline-block;
+    flex-wrap: wrap;
   }
   
-  /* Content centered horizontally and vertically */
+  /* Image container */
   .centered {
     position: absolute;
     top: 50%;
@@ -63,17 +65,15 @@
   
   .text {
     color: #D9D7D0;
-    font-size: 20px;
-    position: absolute;
+    position: relative;
     top: 70%;
-    left: 15%; 
+    left: 0%; 
   }
 
   .rightnav {
     position: relative;
-    top: 60%;
-    left: 60%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 20%;
   }
 
   /* Nav styling */
@@ -81,10 +81,16 @@ nav a {
     font-family: Arial, Helvetica, sans-serif;
     color: #BCBAB4;
     text-decoration: none;
-    font-size: 4em;
+    font-size: 6.5vw;
     transition: .5s ease;
 }
 
 a:hover {
     color: #BF8069;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+    color: #2F4035;
+    font-size: 1.5vw;
 }
