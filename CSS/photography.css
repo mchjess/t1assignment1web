@@ -5,6 +5,7 @@ header {
     font-size: 9vw;
     display: inline-block;
     flex-wrap: flex;
+    color: #2F4035;
 }
 
 /* Navigation styling */
@@ -13,13 +14,13 @@ nav {
     position: relative;
     margin-top: %;
     left: 2%;
-    display: inline-block;
+    display: inline;
     flex-wrap: wrap;   
 }
 
 nav a {
     font-family: Arial, Helvetica, sans-serif;
-    color: #314035;
+    color: #BCBAB4;
     text-decoration: none;
     font-size: 1.5em;
     transition: .5s ease;
@@ -49,9 +50,23 @@ a:hover {
     height: 33vh;
     margin: 5%;
     background-color: #A65729;
-    color: #BFA380;
+    color: #2F4035;
    
   }
+
+  p {
+    margin-left: 20%;
+  }
+
+  footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BF8069;
+    font-size: 1vw;
+    position: relative;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other 
   @media screen and (max-width: 800px) {
