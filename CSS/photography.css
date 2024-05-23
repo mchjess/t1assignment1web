@@ -37,7 +37,6 @@ a:hover {
 .blogcontainer {
     width: 100%;
     margin-top: 5%;
-    margin-left: %;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -47,15 +46,23 @@ a:hover {
 
 .box {
     width: 300vw;
-    height: 33vh;
+    height: 50vh;
     margin: 5%;
-    background-color: #A65729;
+    background-color: #B6DBF2;
     color: #2F4035;
+    text-wrap: wrap;
    
   }
 
-  p {
-    margin-left: 20%;
+  img {
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    size-adjust: 2vw;
+  }
+
+  h2 {
+    padding-left: 2%;
   }
 
   footer {
@@ -63,6 +70,7 @@ a:hover {
     color: #BF8069;
     font-size: 1vw;
     position: relative;
+    margin-top: 20%;
     left: 45%;
     transform: translate(-50%, -50%);
     text-align: center;
