@@ -31,6 +31,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    
   }
   
   /* Image styling */
@@ -55,7 +56,8 @@
     transition: .5s ease;
     background-color: #A16D5A;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
+    text-decoration: none;
+    
   }
   
   .centered:hover .overlay {
@@ -66,7 +68,11 @@
     color: #D9D7D0;
     position: relative;
     top: 70%;
-    left: 0%; 
+    left: 0%;
+  }
+
+  .text a {
+    color: #D9D7D0;
   }
 
   .rightnav {
