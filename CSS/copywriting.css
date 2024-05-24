@@ -37,7 +37,6 @@ a:hover {
 .blogcontainer {
     width: 100%;
     margin-top: 5%;
-    margin-left: %;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -50,6 +49,12 @@ a:hover {
     height: 33vh;
     margin: 5%;
     background-color: #F2D2B6;
+    color: #2F4035;
+  }
+
+  p {
+    padding-right: 2%;
+    text-decoration: none;
     color: #2F4035;
   }
 
