@@ -91,15 +91,7 @@ a:hover {
     color: #BF8069;
     font-size: 1vw;
     position: relative;
-    margin-top: 20%;
-    left: 90%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
-  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other 
-  @media screen and (max-width: 800px) {
-    .blogcontainer {   
-       flex-direction: column;
-     }
-   }
