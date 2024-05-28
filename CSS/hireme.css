@@ -2,7 +2,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 30%;
     font-size: 9vw;
-    display: inline-block;
+    display: inline-flex;
     flex-wrap: flex;
     color: #2F4035;
 }
@@ -64,8 +64,8 @@ a:hover {
   }
 
   .responsive {
-    width: 30%;
-    height: auto;
+    width: auto;
+    
   }
 
   p {
