@@ -47,7 +47,7 @@ a:hover {
 
 .box {
     position: relative;
-    width: 50vw;
+    width: auto;
     height: 100%;
     margin: 5%;
     background-color: #F2D2B6;
