@@ -1,8 +1,7 @@
 header {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 2%;
-    margin-left: 15%;
-    font-size: 11vw;
+    padding-left: 15%;
+    font-size: 10vw;
     display: inline-block;
     flex-wrap: flex;
     color: #2F4035;
@@ -12,9 +11,9 @@ header {
 
 nav {
     position: relative;
-    margin-top: %;
+    margin-top: 3%;
     left: 2%;
-    display: inline-block;
+    display: inline;
     flex-wrap: wrap;   
 }
 
@@ -35,21 +34,39 @@ a:hover {
 /* Blog */
 
 .blogcontainer {
+    position: relative;
     width: 100%;
+    display: inline;
     margin-top: 5%;
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-around;
+    
 }
 
 .box {
-    width: 300vw;
-    height: 33vh;
+    position: relative;
+    width: 89vw;
+    height: auto;
     margin: 5%;
     background-color: #F2D2B6;
     color: #2F4035;
+    display: inline-block;
+    flex-direction: row;
+  }
+
+  img {
+    float: left;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+  }
+
+  .responsive {
+    width: 30%;
+    height: auto;
   }
 
   p {
@@ -59,16 +76,31 @@ a:hover {
     color: #2F4035;
   }
 
+  a {   
+    color: #2F4035;
+  }
+
+  h2 {
+    padding-left: 2%;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  h4 {
+    padding-left: 2%;
+  }
+
   footer {
     font-family: Arial, Helvetica, sans-serif;
     color: #BF8069;
     font-size: 1vw;
     position: relative;
-    left: 45%;
+    margin-top: 20%;
+    left: 90%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
 
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other 
   @media screen and (max-width: 800px) {
