@@ -1,8 +1,7 @@
 header {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 2%;
-    margin-left: 3%;
-    font-size: 7vw;
+    margin-left: 30%;
+    font-size: 9vw;
     display: inline-block;
     flex-wrap: flex;
     color: #2F4035;
@@ -49,7 +48,7 @@ a:hover {
 .box {
     position: relative;
     width: 89vw;
-    height: auto;
+    height: 100%;
     margin: 5%;
     background-color: #F2D2B6;
     color: #2F4035;
@@ -71,6 +70,7 @@ a:hover {
 
   p {
     padding-right: 2%;
+    padding-left: 2%;
     text-decoration: none;
     color: #2F4035;
   }
@@ -84,6 +84,29 @@ a:hover {
     width: 100%;
     height: auto;
     flex-wrap: wrap;
+  }
+
+  h4 {
+    padding-left: 2%;
+  }
+
+  /* Contact form styling */
+
+  textarea {
+   
+  }
+
+  input[type=submit] {
+    background-color: #2F4035;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #BF8069;
   }
 
   footer {

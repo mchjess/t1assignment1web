@@ -48,7 +48,7 @@ a:hover {
 
 .box {
     position: relative;
-    width: 89vw;
+    width: 90vw;
     height: auto;
     margin: 5%;
     background-color: #F2D2B6;
@@ -91,7 +91,7 @@ a:hover {
     color: #BF8069;
     font-size: 1vw;
     position: relative;
-    margin-top: 20%;
+    margin-top: 40%;
     left: 90%;
     transform: translate(-50%, -50%);
     text-align: center;
