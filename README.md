@@ -4,7 +4,7 @@ This document contains:
 
 * A link to my published website:
 
-https://mchjess.github.io/t1assignment1web/index.html
+https://main--jessmchenrywebportfolio.netlify.app/
 
 * A link to the GitHub repo:
 
