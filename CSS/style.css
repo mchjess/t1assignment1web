@@ -63,16 +63,18 @@
   .centered:hover .overlay {
     opacity: .8;
   }
-  
+
   .text {
     color: #D9D7D0;
     position: relative;
     top: 70%;
     left: 0%;
+    font-size: 2vw;
   }
 
   .text a {
-    color: #D9D7D0;
+    color: #BCBAB4;
+    font-size: 2vw;
   }
 
   .rightnav {

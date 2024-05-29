@@ -69,6 +69,8 @@ a:hover {
     height: auto;
   }
 
+  /* Text styling */
+
   p {
     padding-right: 2%;
     text-decoration: none;
@@ -86,6 +88,8 @@ a:hover {
     flex-wrap: wrap;
   }
 
+  /* Footer */
+  
   footer {
     font-family: Arial, Helvetica, sans-serif;
     color: #BF8069;
